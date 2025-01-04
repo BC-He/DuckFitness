@@ -33,7 +33,10 @@ DuckFitness is a cross-platform fitness tracking app built with .NET MAUI. It he
   - Organized by muscle groups and exercises.
 
 ## 📱 Screenshots
-<Add screenshots of the app, showcasing its UI and features.>
+![DuckFitness Home Page](DuckFitness/images/DuckFitnessHomePage.png)
+![DuckFitness Running Tracker](DuckFitness/images/DuckFitnessStartRun.png)
+![DuckFitness Running Tracker](DuckFitness/images/DuckFitnessEndRun.png)
+![DuckFitness Weight Training](DuckFitness/images/DuckFitnessWeightTraining.png)
 
 ## 🛠️ Technologies Used
 - **.NET MAUI**: For building cross-platform mobile and desktop applications.
