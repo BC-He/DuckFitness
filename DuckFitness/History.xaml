@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DuckFitness.History"
+             Title="History">
+    <StackLayout Padding="10">
+        <ListView x:Name="RecordsListView" 
+                  ItemsSource="{Binding FitnessRecords}" 
+                  SelectedItem="{Binding SelectedRecord}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Date}" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding Activity}" HorizontalOptions="StartAndExpand" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Distance:" IsVisible="{Binding IsRunning}" />
+                                <Label Text="{Binding Distance}" IsVisible="{Binding IsRunning}" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Type:" IsVisible="{Binding IsWeightTraining}" />
+                                <Label Text="{Binding WeightTrainingType}" IsVisible="{Binding IsWeightTraining}" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="Edit" Command="{Binding Path=BindingContext.EditCommand, Source={x:Reference RecordsListView}}" CommandParameter="{Binding .}" />
+                                <Button Text="Delete" Command="{Binding Path=BindingContext.DeleteCommand, Source={x:Reference RecordsListView}}" CommandParameter="{Binding .}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

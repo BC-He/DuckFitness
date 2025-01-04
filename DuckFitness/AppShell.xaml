@@ -15,4 +15,12 @@
         Title="Running"
         ContentTemplate="{DataTemplate local:Running}"
         Route="Running" />
+    <ShellContent
+    Title="WeightTraining"
+    ContentTemplate="{DataTemplate local:WeightTraining}"
+    Route="WeightTraining" />
+    <ShellContent
+    Title="History"
+    ContentTemplate="{DataTemplate local:History}"
+    Route="History" />
 </Shell>

@@ -1,0 +1,76 @@
+# .NET Core/Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Build Folders (can be generated)
+build/
+builds/
+
+# Xamarin/Mobile
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.apk.idsig
+*.aab
+*.app
+*.ipa
+*.xcarchive
+.gradle/
+.android/
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.sln.docstates
+*.pidb
+*.csproj.user
+*.swp
+*.swpx
+
+# Application Insights
+ApplicationInsights.config
+ApplicationInsights.config.2
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Files built by IDEs
+*_Bundle.app/
+# For iOS builds
+xamarin.ios/
+
+# Additional Files
+*.tlog
+*.log
+*.cache
+
+# Node.js (if using npm for assets)
+node_modules/
+npm-debug.log*
+
+# Secrets
+secrets.json
+.env
+
+# Other
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.tmp
+*.temp

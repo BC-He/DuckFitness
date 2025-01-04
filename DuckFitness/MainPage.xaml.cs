@@ -14,13 +14,13 @@
             await Navigation.PushAsync(new Running());
         }
 
-        private void OnWeightTrainingButtonClicked(object sender, EventArgs e)
+        private async void OnWeightTrainingButtonClicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new WeightTraining());
         }
-        private void OnHistoryButtonClicked(object sender, EventArgs e)
+        private async void OnHistoryButtonClicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new History());
         }
     }
 

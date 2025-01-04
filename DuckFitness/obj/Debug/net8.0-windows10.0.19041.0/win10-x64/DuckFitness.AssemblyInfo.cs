@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DuckFitness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3e338a5b6c67580c829b683b246644c0d2b016c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("DuckFitness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DuckFitness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

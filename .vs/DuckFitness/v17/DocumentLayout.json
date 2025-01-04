@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "C:\\SelfDevelop\\DuckFitness\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\running.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\running.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\fitnessrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\fitnessrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\duckfitness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\duckfitness.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\history.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\history.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\history.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\history.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\running.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\running.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\running.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\running.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\weighttraining.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\weighttraining.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|c:\\selfdevelop\\duckfitness\\duckfitness\\weighttraining.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E6B6B7-AE71-4B0E-9234-45E47E540D7E}|DuckFitness\\DuckFitness.csproj|solutionrelative:duckfitness\\weighttraining.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,94 +66,171 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "DuckFitness\\AppShell.xaml.cs",
-              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml.cs",
-              "RelativeToolTip": "DuckFitness\\AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\MauiProgram.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\MauiProgram.cs",
+              "RelativeToolTip": "DuckFitness\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:45:05.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml",
-              "RelativeDocumentMoniker": "DuckFitness\\AppShell.xaml",
-              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml",
-              "RelativeToolTip": "DuckFitness\\AppShell.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T15:44:08.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Running.xaml.cs",
-              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\Running.xaml.cs",
-              "RelativeDocumentMoniker": "DuckFitness\\Running.xaml.cs",
-              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\Running.xaml.cs",
-              "RelativeToolTip": "DuckFitness\\Running.xaml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAA4wDoAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:41:06.479Z",
+              "WhenOpened": "2025-01-01T08:46:13.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DuckFitness",
-              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\DuckFitness.csproj",
-              "RelativeDocumentMoniker": "DuckFitness\\DuckFitness.csproj",
-              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\DuckFitness.csproj",
-              "RelativeToolTip": "DuckFitness\\DuckFitness.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-23T15:39:55.973Z",
+              "Title": "HistoryViewModel.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\HistoryViewModel.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\HistoryViewModel.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\HistoryViewModel.cs",
+              "RelativeToolTip": "DuckFitness\\HistoryViewModel.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T02:35:54.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "FitnessRecord.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\FitnessRecord.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\FitnessRecord.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\FitnessRecord.cs",
+              "RelativeToolTip": "DuckFitness\\FitnessRecord.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T16:29:21.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Running.xaml",
               "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\Running.xaml",
               "RelativeDocumentMoniker": "DuckFitness\\Running.xaml",
               "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\Running.xaml",
               "RelativeToolTip": "DuckFitness\\Running.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAhwC4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T15:40:24.62Z",
+              "WhenOpened": "2024-07-05T16:19:57.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Running.xaml.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\Running.xaml.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\Running.xaml.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\Running.xaml.cs",
+              "RelativeToolTip": "DuckFitness\\Running.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwGcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T02:29:41.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "DuckFitness\\MainPage.xaml.cs",
-              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\MainPage.xaml.cs",
-              "RelativeToolTip": "DuckFitness\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAgAAAAiAAAA",
+              "Title": "History.xaml.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\History.xaml.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\History.xaml.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\History.xaml.cs",
+              "RelativeToolTip": "DuckFitness\\History.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:31:00.056Z",
+              "WhenOpened": "2024-07-14T16:35:24.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "History.xaml",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\History.xaml",
+              "RelativeDocumentMoniker": "DuckFitness\\History.xaml",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\History.xaml",
+              "RelativeToolTip": "DuckFitness\\History.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T16:31:22.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeightTraining.xaml.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\WeightTraining.xaml.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\WeightTraining.xaml.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\WeightTraining.xaml.cs",
+              "RelativeToolTip": "DuckFitness\\WeightTraining.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:49:14.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml",
+              "RelativeDocumentMoniker": "DuckFitness\\AppShell.xaml",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml",
+              "RelativeToolTip": "DuckFitness\\AppShell.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-05T16:51:17.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\App.xaml.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\App.xaml.cs",
+              "RelativeToolTip": "DuckFitness\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T16:42:27.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "DuckFitness\\AppShell.xaml.cs",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\AppShell.xaml.cs",
+              "RelativeToolTip": "DuckFitness\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T16:33:22.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeightTraining.xaml",
+              "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\WeightTraining.xaml",
+              "RelativeDocumentMoniker": "DuckFitness\\WeightTraining.xaml",
+              "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\WeightTraining.xaml",
+              "RelativeToolTip": "DuckFitness\\WeightTraining.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-05T16:48:16.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\MainPage.xaml",
               "RelativeDocumentMoniker": "DuckFitness\\MainPage.xaml",
               "ToolTip": "C:\\SelfDevelop\\DuckFitness\\DuckFitness\\MainPage.xaml",
               "RelativeToolTip": "DuckFitness\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAZAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwBcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T15:26:40.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T16:15:35.179Z"
             }
           ]
         }
