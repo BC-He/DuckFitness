@@ -1,34 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DuckFitness.MainPage">
+             x:Class="DuckFitness.MainPage"
+             BackgroundColor="#181B1F">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+    <ScrollView Padding="20">
+        <VerticalStackLayout Spacing="30" HorizontalOptions="Center">
+
+            <!-- Image with a consistent and centered layout -->
             <Image
                 Source="duck.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+                SemanticProperties.Description="Dot net bot in a race car number eight"
+                HorizontalOptions="Center" />
 
+            <!-- Welcome Label -->
             <Label
                 Text="Welcome to Duck Fitness"
                 Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" FontSize="Large" />
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="Large"
+                TextColor="#FFFFFF"
+                HorizontalOptions="Center" />
 
-            <HorizontalStackLayout
-            Padding="0,0"
-                Spacing="15">
-                <Button Text="Running"
-        Clicked="OnRunningButtonClicked"/>
-                <Button Text="Weight Training"
-        Clicked="OnWeightTrainingButtonClicked"/>
-                <Button Text="History"
-        Clicked="OnHistoryButtonClicked"/>
-            </HorizontalStackLayout>
+            <VerticalStackLayout
+                Padding="0,0"
+                Spacing="20" 
+                HorizontalOptions="Center">
+
+                    <!-- Button for Running -->
+                    <Button
+                    Text="Running"
+                    Clicked="OnRunningButtonClicked"
+                    BackgroundColor="#233134"
+                    TextColor="White"
+                    Padding="10,5"
+                    WidthRequest="200" />
+
+                    <!-- Button for Weight Training -->
+                    <Button
+                    Text="Weight Training"
+                    Clicked="OnWeightTrainingButtonClicked"
+                    BackgroundColor="#233134"
+                    TextColor="White"
+                    Padding="10,5"
+                    WidthRequest="200" />
+
+                    <!-- Button for History -->
+                <Button
+                    Text="History"
+                    Clicked="OnHistoryButtonClicked"
+                    BackgroundColor="#233134"
+                    TextColor="White"
+                    Padding="10,5"
+                    WidthRequest="200" />
+
+            </VerticalStackLayout>
+
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

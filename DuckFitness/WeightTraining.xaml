@@ -2,11 +2,156 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DuckFitness.WeightTraining"
-             Title="WeightTraining">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             BackgroundColor="#181B1F"
+             Padding="20">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20">
+
+            <!-- Title -->
+            <Label Text="Weight Training"
+                   FontSize="Large"
+                   TextColor="White"
+                   HorizontalOptions="Center" />
+
+            <!-- Chest Section -->
+            <Frame BorderColor="#233134" Padding="10" CornerRadius="10" BackgroundColor="#2D3239">
+                <VerticalStackLayout>
+                    <Label Text="Chest" FontSize="Medium" TextColor="White" HorizontalOptions="Center" />
+
+                    <!-- Training Posture Options for Chest -->
+                    <Picker Title="Select Posture" SelectedIndex="0"  TextColor="White">
+                        <Picker.Items>
+                            <x:String>Push-ups</x:String>
+                            <x:String>Chest Press</x:String>
+                            <x:String>Chest Fly</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <!-- Sets, Weight, and Reps Input -->
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="FillAndExpand">
+                        <Entry Placeholder="Sets" Keyboard="Numeric" WidthRequest="80" TextColor="#D7E8E9" />
+                        <Entry Placeholder="Weight (kg)" Keyboard="Numeric" WidthRequest="100" TextColor="#D7E8E9" />
+                        <Entry Placeholder="Reps" Keyboard="Numeric" WidthRequest="80" TextColor="#D7E8E9" />
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Back Section -->
+            <Frame BorderColor="#233134" Padding="10" CornerRadius="10" BackgroundColor="#2D3239">
+                <VerticalStackLayout>
+                    <Label Text="Back" FontSize="Medium" TextColor="White" HorizontalOptions="Center" />
+
+                    <!-- Training Posture Options for Back -->
+                    <Picker Title="Select Posture" SelectedIndex="0"  TextColor="#DAEAEE">
+                        <Picker.Items>
+                            <x:String>Deadlift</x:String>
+                            <x:String>Lat Pulldown</x:String>
+                            <x:String>Barbell Row</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <!-- Sets, Weight, and Reps Input -->
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="FillAndExpand">
+                        <Entry Placeholder="Sets" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Weight (kg)" Keyboard="Numeric" WidthRequest="100"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Reps" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Leg Section -->
+            <Frame BorderColor="#233134" Padding="10" CornerRadius="10" BackgroundColor="#2D3239">
+                <VerticalStackLayout>
+                    <Label Text="Legs" FontSize="Medium" TextColor="White" HorizontalOptions="Center" />
+
+                    <!-- Training Posture Options for Legs -->
+                    <Picker Title="Select Posture" SelectedIndex="0"  TextColor="#DAEAEE">
+                        <Picker.Items>
+                            <x:String>Squat</x:String>
+                            <x:String>Leg Press</x:String>
+                            <x:String>Leg Curl</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <!-- Sets, Weight, and Reps Input -->
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="FillAndExpand">
+                        <Entry Placeholder="Sets" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Weight (kg)" Keyboard="Numeric" WidthRequest="100"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Reps" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- ABS Section -->
+            <Frame BorderColor="#233134" Padding="10" CornerRadius="10" BackgroundColor="#2D3239">
+                <VerticalStackLayout>
+                    <Label Text="Abs" FontSize="Medium" TextColor="White" HorizontalOptions="Center" />
+
+                    <!-- Training Posture Options for Abs -->
+                    <Picker Title="Select Posture" SelectedIndex="0"  TextColor="#DAEAEE">
+                        <Picker.Items>
+                            <x:String>Crunches</x:String>
+                            <x:String>Leg Raises</x:String>
+                            <x:String>Plank</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <!-- Sets, Weight, and Reps Input -->
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="FillAndExpand">
+                        <Entry Placeholder="Sets" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Weight (kg)" Keyboard="Numeric" WidthRequest="100"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Reps" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Shoulders Section -->
+            <Frame BorderColor="#233134" Padding="10" CornerRadius="10" BackgroundColor="#2D3239">
+                <VerticalStackLayout>
+                    <Label Text="Shoulders" FontSize="Medium" TextColor="White" HorizontalOptions="Center" />
+
+                    <!-- Training Posture Options for Shoulders -->
+                    <Picker Title="Select Posture" SelectedIndex="0"  TextColor="#DAEAEE">
+                        <Picker.Items>
+                            <x:String>Overhead Press</x:String>
+                            <x:String>Lateral Raise</x:String>
+                            <x:String>Front Raise</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <!-- Sets, Weight, and Reps Input -->
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="FillAndExpand">
+                        <Entry Placeholder="Sets" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Weight (kg)" Keyboard="Numeric" WidthRequest="100"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Reps" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Arms Section -->
+            <Frame BorderColor="#233134" Padding="10" CornerRadius="10" BackgroundColor="#2D3239">
+                <VerticalStackLayout>
+                    <Label Text="Arms" FontSize="Medium" TextColor="White" HorizontalOptions="Center" />
+
+                    <!-- Training Posture Options for Arms -->
+                    <Picker Title="Select Posture" SelectedIndex="0" TextColor="#DAEAEE">
+                        <Picker.Items>
+                            <x:String>Bicep Curl</x:String>
+                            <x:String>Tricep Pushdown</x:String>
+                            <x:String>Barbell Curl</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <!-- Sets, Weight, and Reps Input -->
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="FillAndExpand">
+                        <Entry Placeholder="Sets" Keyboard="Numeric" WidthRequest="80" TextColor="#D7E8E9" />
+                        <Entry Placeholder="Weight (kg)" Keyboard="Numeric" WidthRequest="100"  TextColor="#D7E8E9"/>
+                        <Entry Placeholder="Reps" Keyboard="Numeric" WidthRequest="80"  TextColor="#D7E8E9"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

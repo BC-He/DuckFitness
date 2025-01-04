@@ -3,54 +3,113 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DuckFitness.Running"
              Title="Running" BackgroundColor="#181B1F">
-    <StackLayout Padding="20">
-        <Label Text="Set Today's Goal"
-               x:Name="lbGoal" FontSize="Large"
-               HorizontalOptions="Center"
-               Margin="0,20,0,20" TextColor="#FFFFFF"/>
-        <Image
-            Source="duck.png"
-            HeightRequest="185"
-            Aspect="AspectFit"
-            SemanticProperties.Description="dot net bot in a race car number eight" />
-        <Label x:Name="DistanceGoalLabel" Text="{Binding DistanceGoal, StringFormat='{0:F1} km'}"
-       VerticalOptions="Center" FontSize="Medium" TextColor="#C6C6C6" HorizontalOptions="Center"/>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            
-            <Stepper x:Name="DistanceStepper"
-                     Minimum="0"
-                     Maximum="100"
-                     Increment="0.5"
-                     Value = "5.0" 
-                     ValueChanged="OnDistanceStepperValueChanged"/>
-        </StackLayout>
 
-        <Label  x:Name="TimeGoalLabel" HorizontalOptions="Center"
-                Text="{Binding TimeGoal, StringFormat='{0:F0} min'}"
-       VerticalOptions="Center" FontSize="Medium" TextColor="#C6C6C6"/>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            
-            <Stepper x:Name="TimeStepper"
-                     Minimum="0"
-                     Maximum="300"
-                     Increment="1"
-                     Value = "15.0" 
-                     ValueChanged="OnTimeStepperValueChanged"/>
-        </StackLayout>
+    <ScrollView Padding="20">
+        <StackLayout Spacing="20">
 
-        <Button x:Name="btnStart" Text="Start Training"
-                Margin="0,20,0,0"
-                Clicked="OnStartButtonClicked"/>
-        <Label  x:Name="TimeUsedLabel" HorizontalOptions="Center"
-         Text="{Binding TimeGoal, StringFormat='{0:F0} min'}" VerticalOptions="Center" 
-        FontSize="Medium" TextColor="#C6C6C6"/>
-        <Label  x:Name="CurrentDistanceLabel" HorizontalOptions="Center"
-        Text="{Binding DistanceNow, StringFormat='Distance: {0:F2} km'}" VerticalOptions="Center"
-        FontSize="Medium" TextColor="#C6C6C6"/>
-        <Label  x:Name="PlanNoticeLabel" HorizontalOptions="Center"
-        Text="{Binding dTime_Plan, StringFormat='{0:F0} faster'}" VerticalOptions="Center"
-        FontSize="Small" TextColor="#C6C6C6"/>
-        <Button x:Name="btnEndTraining" Text="End Training" Margin="0,20,0,0" Clicked="EndTraining"/>
-    </StackLayout>
-    
+            <Label Text="Set Today's Goal"
+                   x:Name="lbGoal" FontSize="24"
+                   HorizontalOptions="Center"
+                   TextColor="#FFFFFF"/>
+
+            <Image Source="duck.png"
+                   HeightRequest="185"
+                   Aspect="AspectFit"
+                   SemanticProperties.Description="dot net bot in a race car number eight"
+                   HorizontalOptions="Center"/>
+
+            <!-- Distance Goal Label -->
+            <Label x:Name="DistanceGoalLabel"
+                   Text="{Binding DistanceGoal, StringFormat='{0:F1} km'}"
+                   FontSize="18"
+                   TextColor="#C6C6C6"
+                   HorizontalOptions="Center"/>
+
+            <!-- Distance Buttons (Minus and Plus) -->
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                <!-- Minus Button -->
+                <Button Text="-"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="#2D3239"
+            TextColor="White"
+            Clicked="OnDistanceDecreased" />
+
+                <!-- Plus Button -->
+                <Button Text="+"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="#2D3239"
+            TextColor="White"
+            Clicked="OnDistanceIncreased" />
+            </HorizontalStackLayout>
+
+            <!-- Time Goal Label -->
+            <Label x:Name="TimeGoalLabel"
+                   Text="{Binding TimeGoal, StringFormat='{0:F0} min'}"
+                   FontSize="18"
+                   TextColor="#C6C6C6"
+                   HorizontalOptions="Center"/>
+
+            <!-- Distance Buttons (Minus and Plus) -->
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                <!-- Minus Button -->
+                <Button Text="-"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="#2D3239"
+                    TextColor="White"
+                    Clicked="OnTimeDecreased" />
+
+                <!-- Plus Button -->
+                <Button Text="+"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="#2D3239"
+                    TextColor="White"
+                    Clicked="OnTimeIncreased" />
+            </HorizontalStackLayout>
+
+            <!-- Start Button -->
+            <Button x:Name="btnStart"
+                    Text="Start Training"
+                    BackgroundColor="#3A9D23"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="10,15"
+                    FontSize="18"
+                    Clicked="OnStartButtonClicked"/>
+
+            <!-- Time Used Label -->
+            <Label x:Name="TimeUsedLabel"
+                   Text="{Binding TimeGoal, StringFormat='{0:F0} min'}"
+                   FontSize="18"
+                   TextColor="#C6C6C6"
+                   HorizontalOptions="Center"/>
+
+            <!-- Current Distance Label -->
+            <Label x:Name="CurrentDistanceLabel"
+                   Text="{Binding DistanceNow, StringFormat='Distance: {0:F2} km'}"
+                   FontSize="18"
+                   TextColor="#C6C6C6"
+                   HorizontalOptions="Center"/>
+
+            <!-- Plan Notice Label -->
+            <Label x:Name="PlanNoticeLabel"
+                   Text="{Binding dTime_Plan, StringFormat='{0:F0} faster'}"
+                   FontSize="14"
+                   TextColor="#C6C6C6"
+                   HorizontalOptions="Center"/>
+
+            <!-- End Button -->
+            <Button x:Name="btnEndTraining"
+                    Text="End Training"
+                    BackgroundColor="#D32F2F"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="10,15"
+                    FontSize="18"
+                    Clicked="EndTraining"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

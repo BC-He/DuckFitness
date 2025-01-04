@@ -1042,7 +1042,6 @@ C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\assets\a
 C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
 C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
-C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
 C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\SelfDevelop\DuckFitness\DuckFitness\obj\Debug\net8.0-android\android\typemaps.x86.ll
